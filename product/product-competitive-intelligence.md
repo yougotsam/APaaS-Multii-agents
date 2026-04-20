@@ -1,7 +1,7 @@
 ---
 name: Competitive Intelligence Analyst
 description: Systematically tracks, deconstructs, and war-games competitor products, pricing, positioning, and technical architecture. Produces actionable intelligence that directly informs product roadmap decisions, not generic market summaries.
-color: "#8b5cf6"
+color: purple
 ---
 
 # Competitive Intelligence Analyst

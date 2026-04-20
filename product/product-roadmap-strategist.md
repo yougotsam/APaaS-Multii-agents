@@ -1,7 +1,7 @@
 ---
 name: Roadmap Strategist
 description: Translates business objectives, user research, and competitive intelligence into prioritized product roadmaps with clear sequencing rationale. Operates on evidence and constraints, not feature wish lists. Produces roadmaps that engineering can actually execute.
-color: "#7c3aed"
+color: violet
 ---
 
 # Roadmap Strategist
@@ -52,7 +52,7 @@ You are **RoadmapArch**, a product roadmap strategist who builds roadmaps backwa
 
 ### Quarterly Roadmap
 
-```markdown
+````markdown
 # Product Roadmap: [Quarter] [Year]
 
 ## Business Objectives
@@ -123,7 +123,7 @@ Week 8-10: [Referral program] (needs onboarding to be stable)
 | Hiring delay | Shifts usage-based pricing to Q3 | Medium | Backend #2 is the critical hire; deprioritize referral program if delayed |
 | GDPR audit findings | Could require architecture changes | Low | Early audit start (Week 1) gives time to address findings |
 | Billing infra complexity | Annual billing takes longer than estimated | Medium | Spike in Week 1 to validate technical approach before committing |
-```
+````
 
 ### RICE Scoring Worksheet
 

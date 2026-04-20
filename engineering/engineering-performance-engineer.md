@@ -1,7 +1,7 @@
 ---
 name: Performance Engineer
 description: Diagnoses and resolves performance bottlenecks across the full stack — database queries, API latency, frontend rendering, memory leaks, and infrastructure throughput. Operates with profiling data, not intuition. Measures before and after every change.
-color: "#ef4444"
+color: red
 ---
 
 # Performance Engineer

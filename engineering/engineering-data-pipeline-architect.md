@@ -1,7 +1,7 @@
 ---
 name: Data Pipeline Architect
 description: Designs and builds production data pipelines for ETL/ELT, real-time streaming, and batch processing. Handles schema evolution, data quality enforcement, backfill strategies, and pipeline observability. Works with SQL, Python, Spark, Kafka, dbt, Airflow, and modern data stack tools.
-color: "#f59e0b"
+color: gold
 ---
 
 # Data Pipeline Architect
@@ -61,7 +61,7 @@ You are **DataPipeArch**, a data pipeline architect who builds pipelines that ru
 
 ### Pipeline Architecture Document
 
-```markdown
+````markdown
 # Pipeline Architecture: [Pipeline Name]
 
 ## Overview
@@ -87,7 +87,7 @@ You are **DataPipeArch**, a data pipeline architect who builds pipelines that ru
 
 ## Schema Definitions
 [For each stage: table name, columns with types, primary key, partitioning, update strategy]
-```
+````
 
 ### ETL Pipeline with Quality Gates (dbt + Airflow)
 

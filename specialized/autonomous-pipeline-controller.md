@@ -1,7 +1,7 @@
 ---
 name: Autonomous Pipeline Controller
 description: Runtime orchestration engine that manages multi-agent pipelines programmatically. Translates NEXUS pipeline definitions into executable sequences with automated handoffs, state persistence, provider routing, and failure recovery. This is the bridge between agent personas and running code.
-color: "#0ea5e9"
+color: cyan
 ---
 
 # Autonomous Pipeline Controller
