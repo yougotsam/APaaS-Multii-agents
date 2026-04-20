@@ -73,6 +73,8 @@ Building the future, one commit at a time.
 |-------|-----------|-------------|
 | 🎨 [Frontend Developer](engineering/engineering-frontend-developer.md) | React/Vue/Angular, UI implementation, performance | Modern web apps, pixel-perfect UIs, Core Web Vitals optimization |
 | 🏗️ [Backend Architect](engineering/engineering-backend-architect.md) | API design, database architecture, scalability | Server-side systems, microservices, cloud infrastructure |
+| 🔥 [Performance Engineer](engineering/engineering-performance-engineer.md) | Profiling, latency diagnosis, Core Web Vitals | Database bottlenecks, memory leaks, load testing |
+| 🔀 [Data Pipeline Architect](engineering/engineering-data-pipeline-architect.md) | ETL/ELT, streaming, data quality enforcement | Airflow/dbt pipelines, Kafka consumers, schema evolution |
 | 📱 [Mobile App Builder](engineering/engineering-mobile-app-builder.md) | iOS/Android, React Native, Flutter | Native and cross-platform mobile applications |
 | 🤖 [AI Engineer](engineering/engineering-ai-engineer.md) | ML models, deployment, AI integration | Machine learning features, data pipelines, AI-powered apps |
 | 🚀 [DevOps Automator](engineering/engineering-devops-automator.md) | CI/CD, infrastructure automation, cloud ops | Pipeline development, deployment automation, monitoring |
@@ -121,6 +123,8 @@ Building the right thing at the right time.
 | 🎯 [Sprint Prioritizer](product/product-sprint-prioritizer.md) | Agile planning, feature prioritization | Sprint planning, resource allocation, backlog management |
 | 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence, competitive analysis | Market research, opportunity assessment, trend identification |
 | 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis, insights extraction | Feedback analysis, user insights, product priorities |
+| 🕵️ [Competitive Intelligence Analyst](product/product-competitive-intelligence.md) | Competitor tracking, war gaming, pricing analysis | Battlecards, feature gap analysis, competitive positioning |
+| 🗺️ [Roadmap Strategist](product/product-roadmap-strategist.md) | RICE prioritization, outcome-driven roadmaps | Quarterly planning, capacity allocation, sequencing decisions |
 
 ### 🎬 Project Management Division
 
@@ -188,6 +192,19 @@ The unique specialists who don't fit in a box.
 | 📈 [Data Consolidation Agent](specialized/data-consolidation-agent.md) | Sales data aggregation, dashboard reports | Territory summaries, rep performance, pipeline snapshots |
 | 📬 [Report Distribution Agent](specialized/report-distribution-agent.md) | Automated report delivery | Territory-based report distribution, scheduled sends |
 | 🔐 [Agentic Identity & Trust Architect](specialized/agentic-identity-trust.md) | Agent identity, authentication, trust verification | Multi-agent identity systems, agent authorization, audit trails |
+| 🤖 [Autonomous Pipeline Controller](specialized/autonomous-pipeline-controller.md) | Multi-agent runtime orchestration, LLM routing | Pipeline execution, agent handoffs, state persistence, provider routing |
+
+### 🛠️ Agent Skills
+
+Reusable capabilities in the [Agent Skills](https://agentskills.io) standard format (`SKILL.md`). These work with Claude Code, Cursor, Gemini CLI, and other compatible tools.
+
+| Skill | Purpose | When to Use |
+|-------|---------|-------------|
+| 🔄 [Pipeline Orchestration](skills/pipeline-orchestration/SKILL.md) | Multi-agent Dev/QA pipelines with retry loops | Coordinating multiple agents on a project |
+| 🗺️ [Codebase Cartography](skills/codebase-cartography/SKILL.md) | Map unfamiliar codebases into architecture docs | Onboarding, architecture review, codebase understanding |
+| 🔴 [Adversarial Red Team](skills/adversarial-red-team/SKILL.md) | Attacker-mindset security analysis | Security reviews, vulnerability assessments, pen testing |
+| 🚨 [Incident Commander](skills/incident-commander/SKILL.md) | Production incident response and post-mortems | Outage triage, communication, blameless retrospectives |
+| 💰 [Cost Optimizer](skills/cost-optimizer/SKILL.md) | Cloud, LLM, and SaaS cost reduction | Infrastructure billing analysis, right-sizing, model routing |
 
 ---
 
@@ -324,7 +341,7 @@ Each agent is designed with:
 
 ## 📊 Stats
 
-- 🎭 **61 Specialized Agents** across 9 divisions
+- 🎭 **66 Specialized Agents** across 9 divisions + 5 Agent Skills
 - 📝 **10,000+ lines** of personality, process, and code examples
 - ⏱️ **Months of iteration** from real-world usage
 - 🌟 **Battle-tested** in production environments
@@ -434,7 +451,7 @@ See [integrations/antigravity/README.md](integrations/antigravity/README.md) for
 <details>
 <summary><strong>Gemini CLI</strong></summary>
 
-Installs as a Gemini CLI extension with 61 skills + a manifest.
+Installs as a Gemini CLI extension with 66 skills + a manifest.
 
 ```bash
 ./scripts/install.sh --tool gemini-cli
